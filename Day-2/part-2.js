@@ -8,7 +8,7 @@ const answer = () => {
     let command = input.arr[i].split(" ");
     if (command[0] === "forward") {
       horizontal += Number(command[1]);
-      depth = depth + Number(command[1]) * aim;
+      depth += Number(command[1]) * aim;
     } else if (command[0] === "down") {
       aim += Number(command[1]);
     } else if (command[0] === "up") {
