@@ -1002,5 +1002,3 @@ forward 5`;
 const arr = data.split("\n");
 
 exports.arr = arr;
-
-console.log(Number(arr[0].split(" ")[1]));
