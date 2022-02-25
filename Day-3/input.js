@@ -1002,3 +1002,5 @@ const data = `000110000001
 const arr = data.split("\n");
 
 exports.arr = arr;
+
+console.log(arr);
